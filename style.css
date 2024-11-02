@@ -1,0 +1,47 @@
+.navigation{
+	float:  right;
+}
+
+#right{
+	float:  right;
+}
+
+.left-sidebar-grid{
+	display:  grid;
+	grid-template-areas:
+        'header'
+        'main-content'
+        'left-sidebar'
+        'footer';
+}
+
+
+nav{
+	background-color: #FAAF;
+	background-repeat: no-repeat;
+	font-size: 120%;
+	color: black;
+	font-style: normal;
+
+}
+
+nav ul{
+	list-style-type:  none;
+	text-align: center;
+	text-indent: 50px;
+
+}
+
+nav li{
+	display: inline;
+	height:  auto;
+}
+
+nav li a{
+	word-spacing: normal;
+	text-decoration: none;
+}
+
+nav li a: hover{
+	color: black;
+}
