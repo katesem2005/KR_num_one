@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Основная страница</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+
+<body>
+    <a href="../KR_num_one/index.html" target="_self"><b>Начальная  страница</b></a><br>
+<header><h1>Заголовок</h1></header>
+<nav>
+  <ul>
+    <li><a href="../KR_num_one/index.html" target="_self"><b>Страница с произведением&emsp;</b></a></li>
+    <li><a href="../KR_num_one/index.html" target="_self"><b>Страница с произведением&emsp;</b></a></li>
+    <li><a href="../KR_num_one/index.html" target="_self"><b>Страница с произведением&emsp;</b></a></li>
+    <li><a href="../KR_num_one/index.html" target="_self"><b>Страница с произведением&emsp;</b></a></li>
+  </ul>
+</nav>
+<div id="content">
+    <h3>Основное тело</h3>
+    <p>куча текста...</p>
+    <p>куча текста...</p>
+    <p>куча текста...</p>
+    <p>куча текста...</p>
+    <p>куча текста...</p>
+    <p>куча текста...</p>
+    <p>куча текста...</p>
+    <p>куча текста...</p>
+</div>
+
+
+
+</body>
