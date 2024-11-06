@@ -27,6 +27,16 @@ body{
 	background-image: url(../KR_num_one/passport.jpg);
 	background-repeat: no-repeat;
 }
+
+#podpis1{
+	width: 150px;
+
+}
+
+#podpis2{
+	width: 150px;
+
+}
 .content{
 	float: left;
 	margin-left: 100px;
