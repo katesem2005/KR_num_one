@@ -1,0 +1,66 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	max-width: 1000px;
+	margin-left: 800px;
+	background-repeat: no-repeat;
+	scroll-behavior: smooth;
+}
+
+#navigation{
+	float:  right;
+}
+
+.menu{
+	margin-left: 50px;
+}
+
+.menuOblomov{
+	float: right;
+}
+
+.main_fon{
+
+	height: 734px;
+	background-image: url(../KR_num_one/passport.jpg);
+	background-repeat: no-repeat;
+}
+
+
+
+.content{
+	float: left;
+	margin-left: 100px;
+
+}
+
+#right{
+	float:  right;
+}
+
+nav{
+	background-color: #FAAF;
+	background-repeat: no-repeat;
+	font-size: 120%;
+	color: black;
+	font-style: normal;
+}
+
+nav ul{
+	list-style-type:  none;
+	text-align: center;
+}
+
+nav li{
+	display: inline;
+	height:  auto;
+}
+
+nav li a{
+	word-spacing: normal;
+	text-decoration: none;
+}
+
+nav li a: hover{ color: black; }
