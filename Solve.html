@@ -1,0 +1,57 @@
+ <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Основная страница</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+
+<body>
+    <a href="../KR_num_one/index.html" target="_self"><b>Начальная  страница</b></a><br>
+    <nav>
+      <ul>
+        <li><a id="menu" href="../KR_num_one/index.html" target="_self"><b>Начальная страница&emsp;</b></a></li>
+        <li><a id="menu" href="../KR_num_one/Spiski.html" target="_self"><b>Сборник произведений&emsp;</b></a></li>
+        <!--<li><a id="menu" href="../KR_num_one/Spiski.html" target="_self"><b>Страница с произведением&emsp;</b></a></li>-->
+        <li><a id="menu" href="../KR_num_one/Form.html" target="_self"><b>Форма&emsp;</b></a></li>
+        <li><a id="menu" href="../KR_num_one/Solve.html" target="_self"><b>Решение задачи&emsp;</b></a></li>
+      </ul>
+    </nav>
+
+    <h1 class = "course-title"> Решение алгоритмической задачи </h1>
+    <h3> Можно ли вписать сцену радиусом R в квадраный зал площадью S таким образом, чтобы расстояние от сцены до стены было не менее K?</h3>
+    <label for="S_Input">Введите площадь квадратного зала S:</label>
+    <input type="number" id="S_Input" placeholder="введите площадь квадратного зала"><br>
+
+    <label for="R_Input">Введите радиус сцены R:</label>
+    <input type="number" id="R_Input" placeholder="введите радиус сцены"><br>
+
+    <label for="K_Input">Введите расстояние от стены до сцены K:</label>
+    <input type="number" id="K_Input" placeholder="введите расстояние от стены до сцены"><br>
+
+    <button id="checkButton">Проверить</button>
+    <div id="result" class="result"></div>
+
+    <script>
+        function isRight(S,R,K) {
+            if (R <= parseInt(Math.sqrt(S)-K)/2) {
+                return true;
+            }
+            else{
+                return false;
+            }
+        }
+
+        document.getElementById('checkButton').addEventListener('click', function() {
+            const S = parseInt(document.getElementById('S_Input').value);
+            const R = parseInt(document.getElementById('R_Input').value);
+            const K = parseInt(document.getElementById('K_Input').value);
+            if (isNaN(S)||isNaN(R)||isNaN(K)) {
+                document.getElementById('result').innerText = "Пожалуйста, введите корректные данные.";
+                return;
+            }
+            const Right = isRight(S,R,K);
+            if (Right){document.getElementById('result').innerText = `Сцену радиусом ${R} можно вписать в квадратный зал площадью ${S} так, что от сцены до стены расстояние будет не менее ${K}`;}
+            else {document.getElementById('result').innerText = `Сцену радиусом ${R} нельзя вписать в квадратный зал площадью ${S} так, что от сцены до стены расстояние будет не менее ${K}`;}
+            });
+    </script>
