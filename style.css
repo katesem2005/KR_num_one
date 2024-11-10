@@ -1,6 +1,9 @@
 *{
 	box-sizing: border-box;
+	background-color: #edede9;
+
 }
+
 
 body{
 	max-width: 1000px;
@@ -28,26 +31,15 @@ body{
 	background-repeat: no-repeat;
 }
 
-#podpis1{
-	width: 150px;
 
-}
 
-#podpis2{
-	width: 150px;
 
-}
-.content{
-	float: left;
-	margin-left: 100px;
-}
 
 #right{
 	float:  right;
 }
 
 nav{
-	background-color: #FAAF;
 	background-repeat: no-repeat;
 	font-size: 120%;
 	color: black;
@@ -70,3 +62,5 @@ nav li a{
 }
 
 nav li a: hover{ color: black; }
+
+
