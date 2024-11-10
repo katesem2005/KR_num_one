@@ -63,4 +63,9 @@ nav li a{
 
 nav li a: hover{ color: black; }
 
-
+.form {
+	display: flex;
+	flex-direction: column;
+	width: 500px; 
+	padding: 20px; 
+  }
