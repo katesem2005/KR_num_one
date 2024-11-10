@@ -1,12 +1,20 @@
+body{
+    max-width: 1000px;
+    margin-left: 800px;
+    background-repeat: no-repeat;
+    scroll-behavior: smooth;
+}
+
 *{
     padding: 0px;
     margin: 0px;
-}
+    box-sizing: border-box;
 
+}
 
 #main_fon{
     height: 734px;
-    background-image: url(https://github.com/katesem2005/KR_num_one/blob/main/fon.jpg);
+    background-image: url(fon.jpg);
     background-repeat: no-repeat;
 }
 #pass_title{
@@ -85,3 +93,27 @@
     padding-top: 10px;
     padding-left: 250px;
 }
+
+nav{
+    background-repeat: no-repeat;
+    font-size: 120%;
+    color: black;
+    font-style: normal;
+}
+
+nav ul{
+    list-style-type:  none;
+    text-align: center;
+}
+
+nav li{
+    display: inline;
+    height:  auto;
+}
+
+nav li a{
+    word-spacing: normal;
+    text-decoration: none;
+}
+
+nav li a: hover{ color: black; }
