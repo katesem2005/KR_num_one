@@ -29,14 +29,13 @@ r <!DOCTYPE html>
             <li>Введите расстояние от стены до сцены K: <input type="number" id="K_Input" placeholder="введите расстояние от стены до сцены""></li>
             <li>Результат решения задачи: <input id="result" name="result" value="не определен"></li>
             <li>действие 1: <input id="isRight" type="button" value="Проверить"></li>
-            <div id="result" class="result"></div>
+            <!--<div id="result" class="result"></div>-->
             <li>действие 2: <input id="send" type="button" value="Отправить"></li>
         </ul>
 
     
 </form>
 
- 
     <script>
         function isRight(S,R,K) {
             if (R <= parseInt(Math.sqrt(S)-K)/2) {
