@@ -38,7 +38,7 @@
     "vendor_code": "4445e",
     "description": "Описание 5",
     "price": 400,
-    "img": "../KR_num_one/Obl5.webp"
+    "img": "Obl5.webp"
   },
   {
     "id": "6",
@@ -46,7 +46,7 @@
     "vendor_code": "4446e",
     "description": "Описание 6",
     "price": 400,
-    "img": "../KR_num_one/Obl6.webp"
+    "img": "Obl6.webp"
   },
   {
     "id": "7",
@@ -54,7 +54,7 @@
     "vendor_code": "4447e",
     "description": "Описание 7",
     "price": 700,
-    "img": "../KR_num_one/Obl7.webp"
+    "img": "Obl7.webp"
   },
   {
     "id": "8",
@@ -62,7 +62,7 @@
     "vendor_code": "4448e",
     "description": "Описание 8",
     "price": 800,
-    "img": "../KR_num_one/Obl8.webp"
+    "img": "Obl8.webp"
   },
   {
     "id": "9",
