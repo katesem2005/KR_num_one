@@ -5,7 +5,7 @@
     "vendor_code": "111",
     "description": "Описание 1",
     "price": 100,
-    "img": "../../images/uso_001.jpg"
+    "img": "../KR_num_one/Obl1"
   },
   {
     "id": "2",
@@ -13,7 +13,7 @@
     "vendor_code": "222",
     "description": "Описание 2",
     "price": 200,
-    "img": "../../images/uso_002.jpg"
+    "img": "../KR_num_one/Obl2"
   },
   {
     "id": "3",
@@ -21,7 +21,7 @@
     "vendor_code": "333",
     "description": "Описание 3",
     "price": 300,
-    "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/uso_003.jpg"
+    "img": "../KR_num_one/Obl3"
   },
   {
     "id": "4",
@@ -29,16 +29,16 @@
     "vendor_code": "444e",
     "description": "Описание 4",
     "price": 400,
-    "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/uso_004.jpg"
+    "img": "../KR_num_one/Obl4"
   }
   ,
   {
     "id": "5",
     "title": "Товар 5",
     "vendor_code": "4445e",
-    "description": "Описание 6",
+    "description": "Описание 5",
     "price": 400,
-    "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/uso_005.jpg"
+    "img": "../KR_num_one/Obl5"
   },
   {
     "id": "6",
@@ -46,7 +46,7 @@
     "vendor_code": "4446e",
     "description": "Описание 6",
     "price": 400,
-    "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/1_1.png"
+    "img": "../KR_num_one/Obl6"
   },
   {
     "id": "7",
@@ -54,7 +54,7 @@
     "vendor_code": "4447e",
     "description": "Описание 7",
     "price": 700,
-    "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/1_2.png"
+    "img": "../KR_num_one/Obl7"
   },
   {
     "id": "8",
@@ -62,7 +62,7 @@
     "vendor_code": "4448e",
     "description": "Описание 8",
     "price": 800,
-    "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/1_3.png"
+    "img": "../KR_num_one/Obl8"
   },
   {
     "id": "9",
@@ -70,23 +70,6 @@
     "vendor_code": "444e",
     "description": "Описание 9",
     "price": 400,
-    "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/1_4.png"
-  }
-  ,
-  {
-    "id": "10",
-    "title": "Товар 10",
-    "vendor_code": "44410e",
-    "description": "Описание 10",
-    "price": 900,
-    "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/1_5.png"
-  },
-  {
-    "id": "11",
-    "title": "Товар 11",
-    "vendor_code": "44411e",
-    "description": "Описание 1",
-    "price": 1100,
-    "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/1_6.png"
+    "img": "../KR_num_one/Obl9"
   }
 ]
